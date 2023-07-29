@@ -1,8 +1,10 @@
+import PageTitle from "@/componenets/common/PageTitle";
 import React from "react";
 
 const Page = () => {
   return (
     <>
+      <PageTitle title="Hakkımızda" />
       {/* about area start */}
       <div className="about-area pd-top-120">
         <div className="container">
@@ -24,11 +26,7 @@ const Page = () => {
                   src="img/banner/5.svg"
                   alt="img"
                 />
-                <img
-                  className="main-img"
-                  src="img/about/woman.png"
-                  alt="img"
-                />
+                <img className="main-img" src="img/about/woman.png" alt="img" />
               </div>
             </div>
             <div className="col-lg-6">

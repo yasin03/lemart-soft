@@ -1,8 +1,10 @@
-import React from 'react'
+import PageTitle from "@/componenets/common/PageTitle";
+import React from "react";
 
 const Page = () => {
   return (
     <>
+      <PageTitle title="İletişim" />
       {/* contact area start */}
       <div className="contact-area pd-top-120 pd-bottom-120">
         <div className="container">
@@ -58,8 +60,8 @@ const Page = () => {
         <div className="contact-page-list">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-4 col-md-6">
-                <div className="media single-contact-list">
+              <div className="col-lg-4 col-md-6 ">
+                <div className="media single-contact-list shadow">
                   <div className="media-left">
                     <img src="img/icon/13.svg" alt="img" />
                   </div>
@@ -72,8 +74,8 @@ const Page = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="media single-contact-list">
+              <div className="col-lg-4 col-md-6 ">
+                <div className="media single-contact-list shadow">
                   <div className="media-left">
                     <img src="img/icon/14.svg" alt="img" />
                   </div>
@@ -86,13 +88,13 @@ const Page = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="media single-contact-list">
+                <div className="media single-contact-list shadow">
                   <div className="media-left">
                     <img src="img/icon/15.svg" alt="img" />
                   </div>
                   <div className="media-body">
                     <h5>Adres</h5>
-                    <h6>Akasya Mah. 322. Sok. Kartal/İstanbul</h6>
+                    <h6>Karaman Mah. Nergis Cad. No:4/B Afyonkarahisar</h6>
                   </div>
                 </div>
               </div>
@@ -116,6 +118,6 @@ const Page = () => {
       </>
     </>
   );
-}
+};
 
-export default Page
+export default Page;

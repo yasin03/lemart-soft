@@ -1,8 +1,10 @@
-import React from 'react'
+import PageTitle from "@/componenets/common/PageTitle";
+import React from "react";
 
 const Page = () => {
   return (
     <>
+      <PageTitle title="Hizmetlerimiz" />
       {/* service area start */}
       <div className="service-area bg-relative pd-top-120">
         <div className="container">
@@ -71,6 +73,6 @@ const Page = () => {
       {/* service area end */}
     </>
   );
-}
+};
 
-export default Page
+export default Page;
