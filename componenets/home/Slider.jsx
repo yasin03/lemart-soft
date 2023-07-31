@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Slider = () => {
@@ -37,14 +38,14 @@ const Slider = () => {
                   dijital dünyada öne çıkarın ve geleceği şekillendirmek için
                   bugün adım atın."
                 </p>
-                <a
+                <Link
                   className="btn btn-border-base wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  href="about.html"
+                  href="/contact"y
                 >
                   Daha Fazlası için <i className="fa fa-plus" />
-                </a>
+                </Link>
               </div>
             </div>
             <div

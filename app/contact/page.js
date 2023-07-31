@@ -46,6 +46,7 @@ const Page = () => {
                   <textarea placeholder="Mesajınız" defaultValue={""} />
                 </div>
               </div>
+              
               <div className="col-12 text-center">
                 <button className="btn btn-base border-radius-5">Gönder</button>
               </div>

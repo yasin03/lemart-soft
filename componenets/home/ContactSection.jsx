@@ -42,27 +42,27 @@ const ContactSection = () => {
                   </p>
                   <form className="mt-4">
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-lg-6 col-sm-12">
                         <div className="single-input-inner style-border">
                           <input type="text" placeholder="Ad Soyad" />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-lg-6 col-sm-12">
                         <div className="single-input-inner style-border">
                           <input type="text" placeholder="Email" />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-lg-6 col-sm-12">
                         <div className="single-input-inner style-border">
                           <input type="text" placeholder="Telefon" />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-lg-6 col-sm-12">
                         <div className="single-input-inner style-border">
                           <input type="text" placeholder="Başlık" />
                         </div>
                       </div>
-                      <div className="col-lg-12">
+                      <div className="col-lg-12 col-sm-12">
                         <div className="single-input-inner style-border">
                           <textarea placeholder="Mesaj" defaultValue={""} />
                         </div>

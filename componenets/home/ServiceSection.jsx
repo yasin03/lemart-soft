@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const ServiceSection = () => {
   return (
@@ -20,9 +21,9 @@ const ServiceSection = () => {
                     İhtiyaçlarınıza özel web siteleri oluşturarak markanızı
                     çevrimiçi platformlarda ön plana çıkarıyoruz.
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" href="/service">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -39,9 +40,9 @@ const ServiceSection = () => {
                     arayüzler ve özelleştirilmiş işlevlerle müşterilerinize
                     benzersiz bir mobil deneyim sunmanızı sağlıyoruz.
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" href="/service">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -59,9 +60,9 @@ const ServiceSection = () => {
                     verimliliği artırmanıza ve rekabette öne çıkmanıza yardımcı
                     oluyoruz.
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" href="/service">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,6 +72,6 @@ const ServiceSection = () => {
       {/* service area end */}
     </>
   );
-}
+};
 
-export default ServiceSection
+export default ServiceSection;

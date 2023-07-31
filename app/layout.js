@@ -28,8 +28,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-
-
         <Header />
         {children}
         <Footer />
@@ -40,6 +38,8 @@ export default function RootLayout({ children }) {
           </span>
         </div>
 
+        <Script src="https://www.google.com/recaptcha/api.js" async defer />
+        
         <Script src="js/jquery.min.js" />
         <Script src="js/bootstrap.min.js" />
         <Script src="js/fontawesome.min.js" />

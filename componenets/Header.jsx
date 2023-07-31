@@ -24,11 +24,7 @@ const Header = () => {
               <img src="img/logo.png" alt="LemartSoft" />
             </Link>
           </div>
-          <div className="nav-right-part nav-right-part-mobile">
-            <a className="search-bar-btn" href="#">
-              <i className="fa fa-search" />
-            </a>
-          </div>
+         
           <div className="collapse navbar-collapse" id="itech_main_menu">
             <ul className="navbar-nav menu-open text-lg-center ps-lg-5">
               <li>
@@ -53,8 +49,8 @@ const Header = () => {
               <span className="icon">
                 <img src="img/icon/1.png" alt="img" />
               </span>
-              <span>Yardıma mı ihtiyacınız var?</span>
-              <h5>(555) 469 24 47</h5>
+              <span>Yazılıma mı ihtiyacınız var?</span>
+              <h5>+90(555) 469 24 47</h5>
             </a>
           </div>
         </div>

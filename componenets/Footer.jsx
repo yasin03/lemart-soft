@@ -15,13 +15,10 @@ const Footer = () => {
                 </div>
                 <div className="details">
                   <p>
-                    İnovasyonla Geleceği Şekillendiriyoruz! Araştırma,
-                    yaratıcılık ve teknolojiyi bir araya getirerek, sınırları
-                    zorluyoruz. Müşterilerimize yenilikçi çözümler sunarak,
-                    işletmelerin büyümesine ve rekabet avantajı elde etmesine
-                    destek oluyoruz. LemartSoft olarak, her adımda özgün
-                    fikirlerimiz ve en son teknolojileri kullanarak inovasyona
-                    liderlik ediyoruz.
+                    İnovasyonla Geleceği Şekillendiriyoruz! Müşterilerimize
+                    yenilikçi çözümler sunarak işletmelerin büyümesine destek
+                    oluyoruz. LemartSoft olarak, yaratıcılık ve en son
+                    teknolojilerle inovasyona liderlik ediyoruz.
                   </p>
                 </div>
               </div>
